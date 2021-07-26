@@ -1,0 +1,31 @@
+h1 {
+  font-size: 42px;
+  font-family: "Courier Prime", monospace;
+}
+h2 {
+  font-size: 25px;
+  font-family: "Courier Prime", monospace;
+}
+h3 {
+  font-size: 15px;
+  font-family: "Courier Prime", monospace;
+  right: 10px;
+}
+h4 {
+  font-size: 45px;
+  font-family: "Courier Prime", monospace;
+}
+h5 {
+  font-size: 45px;
+  font-family: "Courier Prime", monospace;
+}
+
+.top {
+  margin: auto;
+  width: 80%;
+  height: 80px;
+  border-width: 1px;
+  border-style: solid;
+  padding: 10px;
+  text-align: center;
+}

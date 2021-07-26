@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/EugeniuZaharia/Fullstackportfolio.github.io#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "node.js": "*",
+    "serve": "^12.0.0"
   }
 }
