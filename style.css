@@ -1,5 +1,6 @@
 .body {
   margin-left: 20px;
+  box-shadow: 3px;
 }
 
 h1 {
@@ -33,17 +34,20 @@ li {
 .top {
   margin: auto;
   width: 80%;
-  height: 180px;
+  height: 140px;
 
-  padding: 10px;
+  padding: 40px 0;
   text-align: center;
 }
 .title {
-  height: 150px;
+  height: auto;
   margin-left: 30px;
 }
 .email {
-  height: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 85px;
   margin-left: 30px;
 }
 .city {
@@ -54,15 +58,18 @@ li {
 }
 .head {
   display: flex;
+  margin-bottom: 20px;
 }
 .firstpicture {
   height: 250px;
   width: 250px;
   border-radius: 25px;
+  margin-top: 115px;
 }
 .rightboxtop {
   display: flex;
   flex-direction: column;
+  margin-top: 115px;
 }
 .container {
   display: flex;
@@ -80,4 +87,11 @@ li {
 .diploma {
   width: 530px;
   height: 380px;
+}
+.address {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-block: 15px;
+  margin-left: 30px;
 }
