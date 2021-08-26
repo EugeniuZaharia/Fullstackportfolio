@@ -1,3 +1,7 @@
+.body {
+  margin-left: 20px;
+}
+
 h1 {
   font-size: 42px;
   font-family: "Courier Prime", monospace;
@@ -14,6 +18,7 @@ h3 {
 h4 {
   font-size: 20px;
   font-family: "Courier Prime", monospace;
+  margin-left: 20px;
 }
 h5 {
   font-size: 45px;
@@ -41,6 +46,12 @@ li {
   height: 150px;
   margin-left: 30px;
 }
+.city {
+  margin-left: 20vh;
+}
+.date {
+  margin-left: 5vh;
+}
 .head {
   display: flex;
 }
@@ -52,4 +63,21 @@ li {
 .rightboxtop {
   display: flex;
   flex-direction: column;
+}
+.container {
+  display: flex;
+  align-items: stretch;
+}
+.leftwall {
+  width: 50%;
+  overflow: hidden;
+}
+.rightwall {
+  width: 50%;
+  overflow: hidden;
+  margin-left: 50%;
+}
+.diploma {
+  width: 530px;
+  height: 380px;
 }
